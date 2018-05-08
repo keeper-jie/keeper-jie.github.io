@@ -304,7 +304,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2018/04/18/jianli/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/18/jianli/" itemprop="commentCount"></span>
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/04/18/jianli/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -429,6 +429,15 @@
           
 
   
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -530,8 +539,8 @@
       
 
       
-	  
-	  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=528478158&auto=0&height=66"></iframe>
+	  <!--网易云音乐-->
+	  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=213737&auto=1&height=66"></iframe>
 
     </div>
   </aside>
@@ -707,6 +716,43 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'keeper-jie',
+            repo: 'keeper-jie.github.io',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '7cb4542da24a4b3efbfa93bce18be2f749bcb90b',
+            
+                client_id: '5769b85df5186170947a'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
