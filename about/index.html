@@ -323,7 +323,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -540,7 +540,7 @@
 
 
 
-
+ 
 
 <!-- LOCAL: You can save these files to your site and update links -->
     
@@ -556,7 +556,9 @@
       <script type="text/javascript">
       function renderGitment(){
         var gitment = new Gitmint({
-            id: window.location.pathname, 
+            id: 1524242192000, { # 
+			issue的Label有长度限制,对于中文博客来说,中文标题很容易就超过长度限制,所以需要做一下特殊处理
+			Default:window.location.pathname--Mordify:1524242192000# }
             owner: 'keeper-jie',
             repo: 'keeper-jie.github.io',
             
