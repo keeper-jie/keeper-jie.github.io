@@ -10,7 +10,7 @@
 - 政治面貌：共青团员
 - 毕业院校	：南华大学
 - 学历：硕士
-- 电子简历地址：[https://gecko.org.cn/resume](http://keeper-jie.github.io/)
+- 电子简历地址：[http://keeper-jie.github.io/](http://keeper-jie.github.io/)
  
 ## 教育背景
 ### 全日制专业学位硕士（计算机技术）
@@ -37,13 +37,13 @@
 
 ## 项目
 ### 大货车非法加装强光灯检测项目
-- 项目效果展示URL：[https://gecko.org.cn/project](http://117.72.86.52/project/)
+- 项目效果展示URL：[大货车非法加装强光灯检测项目展示](http://117.72.86.52/project/)
 - 目标：实时获取海康平台Kafka流中大货车过车图片URL，检测此图片是否有非法加装的强光灯
 - 解决方案：使用Python获取Kafka流数据，实时发送给YOLOv6 Flask集群进行检测（将Pytorch model转为OpenVINO IR部署在`Intel Xeon Gold 5218R CPU@2.1GHz`上），将最后结果发送给MQTT服务器并存储MySQL
 - 结果：程序19：00 - 5：00开启，每日图片吞吐量为2500+，准确率95%+，召回率66%+，F1值为0.79，平均识别时间0.3秒/每张图片（原先方案使用Pytorch model为0.6秒/每张图）
 
 ### 非机动车闯红灯检测跟踪项目
-- 项目效果展示URL：https://gecko.org.cn/project  
+- 项目效果展示URL：[非机动车闯红灯检测跟踪项目展示](http://117.72.86.52/project/)
 - 目标：根据视频流检测非机动车并跟踪，结合当前红灯情况判断是否闯红灯
 - 解决方案：OpenCV实时获取视频RTSP流，使用YOLOv8间隔帧检测并跟踪非机动车，根据配置的左转、直行、右转红灯区域使用自定义ResNet18进行检测，保存闯红灯照片（包含轨迹），发送JSON数据给MQTT服务器并存储MySQL
 - 结果：在3台服务器共14张NVIDIA T4上部署项目监控50路视频，红灯检测0.03秒/每帧，YOLOv8检测跟踪0.05秒/每帧，内存占用3G/每路，显存占用1.5G/每路，带宽4M/每路，准确率94%+
