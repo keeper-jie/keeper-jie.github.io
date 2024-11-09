@@ -10,7 +10,7 @@
 - 政治面貌：共青团员
 - 毕业院校	：南华大学
 - 学历：硕士
-- 电子简历地址：https://gecko.org.cn/resume
+- 电子简历地址：[https://gecko.org.cn/resume](http://keeper-jie.github.io/)
  
 ## 教育背景
 ### 全日制专业学位硕士（计算机技术）
@@ -23,28 +23,29 @@
 
 ## 工作经历
 ### 高级计算机视觉算法工程师
-**杭州杰峰软件有限公司**&nbsp;&nbsp;&nbsp;&nbsp;2022-12 - 至今
-- 开发并优化人脸检测算法（使用RTMDet）
-- 开发并优化人体检测算法
-- 开发并优化跌倒检测算法（YOLOv8图片检测+YOLOv8-pose + STGCN 行为识别）
+**杭州杰峰软件有限公司**&nbsp;&nbsp;&nbsp;&nbsp;2023-12 - 至今
+- 开发并优化跌倒检测算法（基于图片使用YOLOv8）
+- 开发并优化跌倒检测算法（基于视频使用YOLOv8 + 自定义IOU tracker跟踪 + MLP判断是否跌倒）
+- 开发并优化玩手机检测算法（基于图片使用YOLOv8）
+- 开发并优化吸烟检测算法（基于图片使用YOLOv8）
 
 ### 计算机视觉算法工程师
-**浙江力嘉科技有限公司**&nbsp;&nbsp;&nbsp;&nbsp;2022-7 - 2022-11
+**浙江力嘉科技有限公司**&nbsp;&nbsp;&nbsp;&nbsp;2022-7 - 2023-11
 - 负责**大货车非法加装强光灯检测项目**的需求调研 + 数据标注 + 模型训练 + 模型验证 + 模型部署 + 误检漏检数据重训练
 - 负责**非机动车闯红灯检测跟踪项目**的需求调研 + 数据标注 + 模型训练 + 模型验证 + 模型部署 + 误检漏检数据重训练
 - 负责与浙大博士团队进行项目有关的沟通协调
 
 ## 项目
 ### 大货车非法加装强光灯检测项目
-- 项目效果展示URL：https://gecko.org.cn/project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-- 目标：实时获取海康平台Kafka流大货车过车图片URL，检测是否非法加装强光灯
+- 项目效果展示URL：[https://gecko.org.cn/project](http://117.72.86.52/project/)
+- 目标：实时获取海康平台Kafka流中大货车过车图片URL，检测此图片是否有非法加装的强光灯
 - 解决方案：使用Python获取Kafka流数据，实时发送给YOLOv6 Flask集群进行检测（将Pytorch model转为OpenVINO IR部署在`Intel Xeon Gold 5218R CPU@2.1GHz`上），将最后结果发送给MQTT服务器并存储MySQL
 - 结果：程序19：00 - 5：00开启，每日图片吞吐量为2500+，准确率95%+，召回率66%+，F1值为0.79，平均识别时间0.3秒/每张图片（原先方案使用Pytorch model为0.6秒/每张图）
 
 ### 非机动车闯红灯检测跟踪项目
 - 项目效果展示URL：https://gecko.org.cn/project  
 - 目标：根据视频流检测非机动车并跟踪，结合当前红灯情况判断是否闯红灯
-- 解决方案：OpenCV实时获取视频RTSP流，使用YOLOv8间隔帧检测并跟踪非机动车，根据配置的左转、直行、右转红灯区域使用ResNet18进行检测，保存闯红灯照片（包含轨迹），发送JSON数据给MQTT服务器并存储MySQL
+- 解决方案：OpenCV实时获取视频RTSP流，使用YOLOv8间隔帧检测并跟踪非机动车，根据配置的左转、直行、右转红灯区域使用自定义ResNet18进行检测，保存闯红灯照片（包含轨迹），发送JSON数据给MQTT服务器并存储MySQL
 - 结果：在3台服务器共14张NVIDIA T4上部署项目监控50路视频，红灯检测0.03秒/每帧，YOLOv8检测跟踪0.05秒/每帧，内存占用3G/每路，显存占用1.5G/每路，带宽4M/每路，准确率94%+
 
 ## 资格证书
@@ -54,12 +55,12 @@
 
 ## 技能
 - 图像分类
-- 图像检测（RTMDet, YOLOv8, YOLOv5, YOLOv6）
-- 行为识别（YOLOv8-pose + STGCN）
+- 图像检测（YOLOv8, YOLOv5, YOLOv6）
+- 行为识别（数据清洗 + 自定义dataloader + 自定义模型 + 训练 + 验证 + 推理 + 数据可视化）
 - OpenCV
 - Pytorch
-- Python/JAVA/PHP/C/C++
-- 熟悉图像检测流程（收集图片-》Labelme/LabelImg打标-》模型训练-》模型验证-》模型部署-》误检图片收集重训练）
+- Python/JAVA/PHP
+- 熟悉图像检测项目流程（收集图片-》Labelme/LabelImg/CVAT打标-》模型训练-》模型验证-》模型部署-》误检图片收集重训练）
 - 熟悉视频流检测跟踪流程（获取视频流-》检测-》跟踪-》处理）
 
 ## 语言
