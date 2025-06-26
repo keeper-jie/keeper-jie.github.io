@@ -4,18 +4,18 @@
 - 姓名：刘捷
 - 民族：汉
 - 邮箱：liujie0068@foxmail.com
-- Github：[https://github.com/keeper-jie](http://liujieKermit.github.io/)
+- Github：[https://github.com/keeper-jie](https://github.com/keeper-jie)
 - 住址：浙江省杭州市
 - 出生年月：1998.02
 - 身高：175cm
 - 政治面貌：共青团员
 - 毕业院校：南华大学
 - 学历：硕士
-- 电子简历地址：[http://liujieKermit.github.io/](http://liujieKermit.github.io/)
+- 电子简历地址：[https://keeper-jie.github.io/](https://keeper-jie.github.io/)
 
 ## 核心优势
 - 3年计算机视觉实战经验：专注目标检测/分割/分类等任务，覆盖图片、视频及端侧部署
-- 开源贡献者：2次Ultralytics框架PR被官方合并（[GitHub链接](https://github.com/ultralytics/ultralytics/issues?q=state%3Aclosed%20is%3Apr%20author%3Akeeper-))
+- 开源贡献者：2次Ultralytics框架PR被官方合并([GitHub链接](https://github.com/ultralytics/ultralytics/issues?q=state%3Aclosed%20is%3Apr%20author%3Akeeper-jie))
 - 全栈落地能力：从算法研发（PyTorch）→ 模型部署（RK3588）→ 项目管理（系统集成证书）
 - 多模态技术探索者：实践LLM/VLM前沿技术，具备技术迁移能力
 
@@ -60,15 +60,15 @@
 3. Ultralytics开源贡献（2024 - 2025）
 - PR#1：修复框/置信度/类别显示问题([Github链接](https://github.com/ultralytics/ultralytics/pull/17384))
 - PR#2：修复yoloe-11-seg训练报错问题([Github链接](https://github.com/ultralytics/ultralytics/pull/21004))
-- 影响：被采纳并入ultralytics:main官方版本
+- 影响：被采纳并入`ultralytics:main`官方版本
 
 ### 落地经验
 - 端侧部署：
-    - RK3588平台完成YOLOv5/V10/v8-p2/v8/RetinaFace等模型部署，CPU利用率降低40%
+    - RK3588平台完成YOLOv5/v10/v8-p2/v8/RetinaFace等模型部署，CPU利用率降低40%
     - 实现INT8量化校准工具链，精度损失<0.5%
 
 - 大模型探索：
-    - 完成RK3588 QwenVL 2B图文问答POC，探索VLM在工业质检的应用
+    - 完成RK3588 Qwen-VL 2B图文问答POC，探索VLM在工业质检的应用
 
 ## 证书与教育
 - 全日制专业学位硕士 | 计算机技术 | 南华大学（统招 2019-2022）
