@@ -159,7 +159,7 @@ head:
 # d.shape: torch.Size([1, 144, 40, 40])
 # d.shape: torch.Size([1, 144, 20, 20])
 ```
-- 将`ultralytics-8.3.152/ultralytics/nn/tasks.py`,`ultralytics-8.3.152/ultralytics/nn/modules/__init__.py`.'/data/liujie/data/ultralytics-8.3.152/ultralytics/nn/modules/conv.py'文件中均添加新卷积类，具体代码可以查看我的github仓库
+- 将`ultralytics-8.3.152/ultralytics/nn/tasks.py`,`ultralytics-8.3.152/ultralytics/nn/modules/__init__.py`.`ultralytics-8.3.152/ultralytics/nn/modules/conv.py`文件中均添加新卷积类，具体代码可以查看我的github仓库
 - 新建测试脚本`test_yaml.py`测试模型架构是否配置正确
 ```
 # 查看cfg文件对应的参数量/计算量信息
@@ -206,11 +206,11 @@ def test_yaml(cfg_file_path):
     print(output_str)
 
 # 单个配置文件参数量输出
-cfg_file_path="/data/liujie/data/ultralytics-8.3.152/ultralytics/cfg/models/11/yolo11_gsconve.yaml"
+cfg_file_path="ultralytics-8.3.152/ultralytics/cfg/models/11/yolo11_gsconve.yaml"
 test_yaml(cfg_file_path)
 
 # 文件夹下配置文件参数量输出
-# cfg_dir_path="/data/liujie/data/docker_data/ultralytics-8.3.152/ultralytics/cfg/models"
+# cfg_dir_path="ultralytics-8.3.152/ultralytics/cfg/models"
 # import os
 # for root, dirs, files in os.walk(cfg_dir_path):
 #     for file in files:
@@ -221,7 +221,7 @@ test_yaml(cfg_file_path)
 - 运行测试脚本`python ultralytics-8.3.152/tutorial/debug/test_yaml.py`,没有报错则为正确，增加block/head同理，若报错则需要调试`ultralytics-8.3.152/ultralytics/nn/tasks.py`中parse_model函数进行特殊配置
 ```
 
-/data/liujie/data/ultralytics-8.3.152/ultralytics/cfg/models/11/yolo11_gsconve.yaml
+ultralytics-8.3.152/ultralytics/cfg/models/11/yolo11_gsconve.yaml
 WARNING ⚠️ no model scale passed. Assuming scale='n'.
 
                    from  n    params  module                                       arguments                     
