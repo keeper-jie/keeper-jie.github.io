@@ -111,6 +111,8 @@
 ## 文章
 [YOLOV8导出onnx操作及指标评测](./yolov8_onnx_benchmark.md)  
 
+[ultralytics框架修改模型架构-新卷积](./ultralytics_add_conv.md) 
+
 ## 项目成果
 [站坐躺完整跌倒视频](./站坐躺完整跌倒视频.gif)
 
