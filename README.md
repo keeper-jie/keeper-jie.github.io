@@ -17,7 +17,7 @@
 - 3年计算机视觉实战经验：专注目标检测/分割/分类等任务，覆盖图片、视频及端侧部署
 - 开源贡献者：2次Ultralytics框架PR被官方合并([GitHub链接](https://github.com/ultralytics/ultralytics/issues?q=state%3Aclosed%20is%3Apr%20author%3Akeeper-jie))
 - 全栈落地能力：从算法研发（PyTorch）→ 模型部署（RK3588）→ 项目管理（系统集成证书）
-- 多模态技术探索者：实践LLM/VLM前沿技术，具备技术迁移能力
+- 多模态技术探索者：实践LLM/VLM/ASR/TTS前沿技术，具备技术迁移能力
 
 ## 技术栈
 ### 算法框架
@@ -89,13 +89,16 @@
 ### 落地经验
 - 端侧部署：
   
-    - RK3588平台完成YOLOv5/v10/v8-p2/v8/RetinaFace等模型部署（零拷贝），CPU利用率降低40%
+    - RK3588平台完成YOLOv5/v10/v8-p2/v8/RetinaFace等模型部署（量化+零拷贝），CPU利用率降低40%
   
     - 实现INT8量化校准工具链，精度损失<0.5%
 
 - 大模型探索：
   
-    - 完成RK3588 Qwen-VL 2B图文问答POC，探索VLM在工业质检的应用（onnx -> rknn(量化) -> Gradio/Flask部署）
+    - 完成`RK3588` `Qwen-VL 2B`图文问答POC，探索VLM在工业质检的应用（onnx -> rknn(量化) -> Gradio/Flask部署）
+
+- ASR/TTS模型探索:
+    - `Wav2Vec2/Whisper/Zipformer` `ASR`模型量化（int8）部署，`MMS_TTS/MeloTTS` `TTS`模型量化（int8）部署
 
 ## 证书与教育
 - 全日制专业学位硕士 | 计算机技术 | 南华大学（统招 2019-2022）
