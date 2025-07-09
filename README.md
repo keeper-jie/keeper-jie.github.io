@@ -21,8 +21,8 @@
 
 ## 技术栈
 ### 算法框架
-- 主框架：Ultralytics YOLO系列（YOLOv5/v6/v8/v10/v11/v12）、MMDetection、PaddleDetection
-- 多模态：DeepSeek-R1-Distill-Qwen-1.5B、Qwen2-VL-2B等VLM/LLM端侧部署经验
+- 主框架：Ultralytics YOLO系列（`YOLOv5/v6/v8/v10/v11/v12`）、MMDetection、PaddleDetection
+- 多模态：`DeepSeek-R1-Distill-Qwen-1.5B`、`Qwen2-VL-2B`等VLM/LLM端侧部署经验
 - 部署：RKNN-Toolkit2、RKLLM、TensorRT、ONNX
 
 ### 算法方向
@@ -89,7 +89,7 @@
 ### 落地经验
 - 端侧部署：
   
-    - RK3588平台完成YOLOv5/v10/v8-p2/v8/RetinaFace等模型部署（量化+零拷贝），CPU利用率降低40%
+    - RK3588平台完成`YOLOv5/v10/v8-p2/v8/RetinaFace`等模型部署（量化+零拷贝），CPU利用率降低40%
   
     - 实现INT8量化校准工具链，精度损失<0.5%
 
