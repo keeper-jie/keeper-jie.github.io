@@ -21,7 +21,7 @@
 
 ## 技术栈
 ### 算法框架
-- 主框架：Ultralytics YOLO系列（YOLOv5/v6/v8/V10/V11/V12）、MMDetection、PaddleDetection
+- 主框架：Ultralytics YOLO系列（YOLOv5/v6/v8/v10/v11/v12）、MMDetection、PaddleDetection
 - 多模态：DeepSeek-R1-Distill-Qwen-1.5B、Qwen2-VL-2B等VLM/LLM端侧部署经验
 - 部署：RKNN-Toolkit2、RKLLM、TensorRT、ONNX
 
