@@ -112,7 +112,7 @@
 - 喜欢尝试新的解决方案，并详细文档记录过程和结果使其沉淀为问题解决方案
 
 ## 文章
-[YOLOV8导出onnx操作及指标评测](./yolov8_onnx_benchmark.md)  
+[YOLOV8导出onnx操作及指标评测](https://github.com/keeper-jie/keeper-jie.github.io/blob/main/yolov8_onnx_benchmark.md)  
 
 [ultralytics框架修改模型架构-新卷积](https://github.com/keeper-jie/keeper-jie.github.io/blob/main/ultralytics_add_conv.md) 
 
