@@ -22,7 +22,7 @@
 ## 技术栈
 ### 算法框架
 - 主框架：Ultralytics YOLO系列（`YOLOv5/v6/v8/v10/v11/v12`）、MMDetection、PaddleDetection
-- 多模态：`DeepSeek-R1-Distill-Qwen-1.5B`、`Qwen2-VL-2B`等VLM/LLM端侧部署经验
+- 多模态：`DeepSeek-R1-Distill-Qwen-1.5B`、`Qwen2.5-VL-3B`等VLM/LLM端侧部署经验
 - 部署：RKNN-Toolkit2、RKLLM、TensorRT、ONNX
 
 ### 算法方向
@@ -95,7 +95,7 @@
 
 - 大模型探索：
   
-    - 完成`RK3588` `Qwen-VL 2B`图文问答POC，探索VLM在工业质检的应用（onnx -> rknn(量化) -> Gradio/Flask部署）
+    - 完成`RK3588` `Qwen-VL`图文问答POC，探索VLM在工业质检的应用（onnx -> rknn(量化) -> Gradio/Flask部署）
 
 - ASR/TTS模型探索:
     - `Wav2Vec2/Whisper/Zipformer` `ASR`模型量化（int8）部署，`MMS_TTS/MeloTTS` `TTS`模型量化（int8）部署
