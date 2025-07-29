@@ -137,7 +137,7 @@
 
 ## RK3588
 
-[rk3588实时目标检测-yolov10](./rk3588_yolov10_实时监测.mp4)
+[RK3588实时目标检测-yolov10](./rk3588_yolov10_实时监测.mp4)
 
 [RK3588部署QwenVL-2.5 3B微调后效果](./qwenvl25_finetune.png)
 
