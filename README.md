@@ -11,7 +11,7 @@
 - 政治面貌：共青团员
 - 毕业院校：南华大学
 - 学历：硕士
-- 电子简历地址：[https://keeper-jie.github.io/](https://keeper-jie.github.io/)
+- 电子简历地址：[https://keeper-jie.github.io](https://keeper-jie.github.io)
 ## 核心优势
 
 * **3年计算机视觉实战经验**：覆盖目标检测/分割/分类/跟踪/关键点检测/旋转框检测，应用于图片、视频文件、视频流及端侧部署
