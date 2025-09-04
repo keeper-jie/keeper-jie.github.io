@@ -33,7 +33,6 @@
 
 * **技术栈**：YOLOv8、ResNet、OBB、BoT-SORT
 * **成果**：
-
   * 大货车非法加装强光灯检测：创新角度敏感损失 + 数据增强，mAP\@0.5 提升 **5.3%**，夜间部署日处理图片 **10万+**，平均推理 **0.01s/图**
   * 非机动车闯红灯检测：CBAM+轨迹过滤，**误报率 <1.5%**，多服务器部署 **50路视频流**，精确率 **98.5%+**
 
@@ -42,7 +41,6 @@
 * **任务**：跌倒检测、吸烟/玩手机检测
 * **技术栈**：YOLOv8-Pose、STGCN、GSConv优化
 * **成果**：
-
   * 视频跌倒检测：Pose+STGCN实现时空轨迹分析
   * 小目标优化：引入GSConv替换标准卷积，AP\@0.5 提升 **8.7%**
   * 部署：云端T4推理 **14ms/图**，月调用量 **50万+**，RK3588端侧 **28ms/图**
@@ -74,11 +72,13 @@
 * 注重文档沉淀与知识复用
 
 ## 文章
+
 [YOLOV8导出onnx操作及指标评测](https://github.com/keeper-jie/keeper-jie.github.io/blob/main/yolov8_onnx_benchmark.md)  
 
 [ultralytics框架修改模型架构-新卷积](https://github.com/keeper-jie/keeper-jie.github.io/blob/main/ultralytics_add_conv.md) 
 
 ## 项目成果
+
 [站坐躺完整跌倒视频](./站坐躺完整跌倒视频.gif)
 
 [向后跌倒测试](./向后跌倒测试.gif)
@@ -106,4 +106,5 @@
 [RK3588部署QwenLLM-2.5 3B微调后效果](./qwenllm25.png)
 
 ## 大模型
+
 [多模态大模型无人机场景机动车违停检测](./多模态大模型无人机场景机动车违停检测.jpg)
