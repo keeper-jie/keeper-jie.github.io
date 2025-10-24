@@ -16,14 +16,14 @@
 
 * **3年计算机视觉实战经验**：覆盖目标检测/分割/分类/跟踪/关键点检测/旋转框检测，应用于图片、视频文件、视频流及端侧部署
 * **开源贡献者**：2个Ultralytics框架PR被官方采纳 ([链接](https://github.com/ultralytics/ultralytics/issues?q=state%3Aclosed%20is%3Apr%20author%3Akeeper-jie))
-* **全栈落地能力**：算法研发（PyTorch）→ 模型优化部署（RK3588/TensorRT/ONNX）→ 项目交付与管理
-* **前沿探索**：具备VLM/LLM/ASR/TTS等多模态实践与迁移能力
+* **全栈落地能力**：数据管理（数据爬虫采集 → 清洗 → CVAT标注 → 质检 → 训练 → 部署 → 漏检误检迭代优化）→ 算法研发（PyTorch）→ 模型优化部署（RKNN/TensorRT/OpenVINO/Triton）→ 项目交付与管理（系统集成项目管理工程师证书）
+* **前沿探索**：具备VLM/LLM/ASR/TTS等前沿模型实践与迁移能力
 
 ## 技术栈
 
 * **算法框架**：YOLOv5/v8/v10/v11/v12、MMDetection、PaddleDetection
 * **大模型**：DeepSeek-R1、Qwen2.5-VL Unsloth/LLaMA-Factory微调及端侧部署
-* **模型部署**：RKNN-Toolkit2、RKLLM、TensorRT、ONNX
+* **模型部署**：RKNN-Toolkit2、RKLLM、TensorRT、ONNX、OpenVINO
 * **算法方向**：目标检测/分割/分类、关键点检测、旋转框检测、视频跟踪
 * **工程工具**：Docker、Linux、Git，具备模型量化（INT8）、蒸馏、剪枝经验
 
