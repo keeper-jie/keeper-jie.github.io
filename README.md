@@ -21,8 +21,8 @@
 
 ## 技术栈
 
-* **算法框架**：YOLOv5/v8/v10/v12、MMDetection、PaddleDetection
-* **大模型**：DeepSeek-R1、Qwen2.5-VL LLaMA-Factory微调及端侧部署
+* **算法框架**：YOLOv5/v8/v10/v11/v12、MMDetection、PaddleDetection
+* **大模型**：DeepSeek-R1、Qwen2.5-VL Unsloth/LLaMA-Factory微调及端侧部署
 * **模型部署**：RKNN-Toolkit2、RKLLM、TensorRT、ONNX
 * **算法方向**：目标检测/分割/分类、关键点检测、旋转框检测、视频跟踪
 * **工程工具**：Docker、Linux、Git，具备模型量化（INT8）、蒸馏、剪枝经验
@@ -41,7 +41,7 @@
 * **任务**：跌倒检测、吸烟/玩手机检测
 * **技术栈**：YOLOv8-Pose、STGCN、GSConv优化
 * **成果**：
-  * 视频跌倒检测：Pose+STGCN实现时空轨迹分析
+  * 视频跌倒检测：YOLOv8-Pose+STGCN实现时空轨迹分析
   * 小目标优化：引入GSConv替换标准卷积，AP\@0.5 提升 **8.7%**
   * 部署：云端T4推理 **14ms/图**，月调用量 **50万+**，RK3588端侧 **28ms/图**
 
