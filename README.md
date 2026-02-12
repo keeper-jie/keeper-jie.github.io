@@ -16,13 +16,13 @@
 
 * **3年计算机视觉实战经验**：覆盖目标检测/分割/分类/跟踪/关键点检测/旋转框检测，应用于图片、视频文件、视频流及端侧部署
 * **开源贡献者**：2个Ultralytics框架PR被官方采纳 ([链接](https://github.com/ultralytics/ultralytics/issues?q=state%3Aclosed%20is%3Apr%20author%3Akeeper-jie))
-* **全栈落地能力**：数据管理（数据爬虫采集 → 清洗 → CVAT标注 → 质检 → 训练 → 部署 → 漏检误检迭代优化）→ 算法研发（PyTorch）→ 模型优化部署（RKNN/TensorRT/OpenVINO/Triton）→ 项目交付与管理（系统集成项目管理工程师证书）
+* **全栈落地能力**：数据管理（数据爬虫采集 → 清洗 → CVAT/X-AnyLabeling标注 → 质检 → 训练 → 部署 → 漏检误检迭代优化）→ 算法研发（PyTorch）→ 模型优化部署（RKNN/TensorRT/OpenVINO/Triton）→ 项目交付与管理（系统集成项目管理工程师证书）
 * **前沿探索**：具备VLM/LLM/ASR/TTS等前沿模型实践与迁移能力
 
 ## 技术栈
 
-* **算法框架**：YOLOv5/v8/v10/v11/v12、MMDetection、PaddleDetection
-* **大模型**：DeepSeek-R1、Qwen2.5-VL Lora/LLaMA-Factory微调及端侧部署
+* **算法框架**：YOLOv5/v8/v10/v11/v12/26、MMDetection、PaddleDetection、Ultralytics
+* **大模型**：DeepSeek-R1、Qwen3-VL Unsloth/LLaMA-Factory微调及端侧部署
 * **模型部署**：RKNN-Toolkit2、RKLLM、TensorRT、ONNX、OpenVINO
 * **算法方向**：目标检测/分割/分类、关键点检测、旋转框检测、视频跟踪
 * **工程工具**：Docker、Linux、Git，具备模型量化（INT8）、蒸馏、剪枝经验
@@ -49,14 +49,22 @@
 
 * 修复检测框显示 & YOLOE-Seg训练报错问题 → **合入官方main分支**
 
-### 4. 浙江赛目科技 (2025.08 - 至今)
+### 4. 浙江赛目科技 (2025.08 - 2025.11)
 
 * 部署 **Qwen2.5-VL-72B**，探索多模态在无人机领域的零样本检测应用
+* 配合仁和街道需求进行特定事件AI检测，完成17个算法预研（确定需求-》开发MVP-》安排标注任务按质按量提供算法API）
+
+### 5. 杭州研趣信息技术有限公司 (2025.11 - 至今)
+
+* 基于**8000+**SEM（电子显微镜）图片生成**320K**图文问答对资料微调Qwen3 VL 8B多模态大模型，完成数据生成-》训练-》部署-》评测工作，基于测试集相较于baseline提升了**16.4%**（Qwen3 VL embedding 2B计算回答的语义相似度）
+* 基于半导体图片的**模板匹配方法调研**：尝试YOLOE，轮廓匹配，直方图匹配，SIFT，ORB，opencv模板匹配( 平方差和(SSD)，标准平方差(SQDIFF_NORMED)，相关(CORR)，标准相关(CORR_NORMED)，相关系数(CCOEFF)，标准相关系数(CCOEFF_NORMED)，直方图匹配（RGB颜色空间， HSV颜色空间，GRAY颜色空间） )，canny，resnet50特征提取+滑框，特征点匹配LightGlue，T-rex2，X-AnyLabeling模板匹配。在半导体测试图片上效果最好的为模板匹配cv2.TM_CCOEFF_NORMED
+* 半导体量测项目图片标注-》核验-》训练-》部署，迭代优化算法效果，针对fin layer大目标修改模型架构适配
+* UniEM、UniAIMS、YOLOE、SAM-EM、Qwen3-VL、Qwen3-VL-Embedding and Qwen3-VL-Reranker论文精读并云文档记录理解和反思
 
 ## 落地经验
 
 * **端侧部署**：RK3588完成YOLO/RetinaFace部署，量化+零拷贝，CPU利用率下降 **40%**
-* **大模型探索**：Qwen2.5-VL-7B图文问答POC，实践提示工程 + LORA微调/LLaMA-Factory进行目标检测任务微调
+* **大模型探索**：Qwen3-VL-8B图文问答POC，实践提示工程 + Unsloth/LLaMA-Factory进行多模态大模型问答任务微调
 * **语音模型**：Wav2Vec2/Whisper/Zipformer (ASR)，MMS\_TTS/MeloTTS (TTS) 量化部署
 
 ## 教育与证书
@@ -68,7 +76,7 @@
 ## 个人特点
 
 * 善于快速定位和解决问题，具备团队协作与沟通能力
-* 持续学习，跟踪前沿趋势（端侧大模型、语音大模型、具身智能、AI+硬件）
+* 持续学习，跟踪前沿趋势（端侧大模型部署、语音大模型、具身智能、AI+硬件）
 * 注重文档沉淀与知识复用
 
 ## 文章
