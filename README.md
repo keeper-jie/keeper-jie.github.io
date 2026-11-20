@@ -60,9 +60,9 @@ YOLO 系列检测 / RetinaFace / 多模态大模型在 RK3588 上的量化部署
   </tr>
 </table>
 
-<video src="https://github.com/user-attachments/assets/6661d068-a9ec-4818-a516-f86e604d58cf" controls="controls" width="620"></video>
+<video src="./rk3588_yolov10_实时监测.mp4" controls="controls" width="620"></video>
 
-*RK3588 实时目标检测（YOLOv10）演示 · 播放器无法显示时[点击观看原视频](https://github.com/user-attachments/assets/6661d068-a9ec-4818-a516-f86e604d58cf)*
+*RK3588 实时目标检测（YOLOv10）演示 · 播放器无法显示时[点击下载观看](./rk3588_yolov10_实时监测.mp4)*
 
 - 📄 [RK3588 转换 Qwen3-VL 模型与官方转换效果对比](./RK3588转换模型效果和官方转换模型比较.pdf)
 
