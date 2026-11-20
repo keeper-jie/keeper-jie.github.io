@@ -2,11 +2,11 @@
 
 **目标检测 · 实例分割 · 端侧部署 · 多模态大模型** —— 4 年+ 计算机视觉算法工程落地经验
 
-📧 【请填写求职邮箱】 ｜ 🔗 [github.com/keeper-jie](https://github.com/keeper-jie) ｜ 📍 浙江杭州
+📧 [liujie0068@foxmail.com](mailto:liujie0068@foxmail.com) ｜ 🔗 [github.com/keeper-jie](https://github.com/keeper-jie) ｜ 📍 浙江杭州
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-D50032?style=flat-square) ![RKNN](https://img.shields.io/badge/RKNN--Toolkit2-0B6DA8?style=flat-square) ![OpenVINO](https://img.shields.io/badge/OpenVINO-2B7BB9?style=flat-square) ![Qwen-VL](https://img.shields.io/badge/Qwen--VL-6F42C1?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-> 这是我的个人技术展示站：**我能做什么 → 我做了什么（真实项目效果演示）**。完整简历见文末 [完整简历](#完整简历)。
+> 这是我的个人技术展示站：**我能做什么 → 我做了什么（真实项目效果演示）**。
 
 ## 目录
 
@@ -15,7 +15,6 @@
 - [技术栈](#技术栈)
 - [开源与技术沉淀](#开源与技术沉淀)
 - [教育与证书](#教育与证书)
-- [完整简历](#完整简历)
 
 ---
 
@@ -222,12 +221,6 @@ YOLO 系列检测 / RetinaFace / 多模态大模型在 RK3588 上的量化部署
 - **硕士** ｜ 计算机技术 ｜ 南华大学（2019 - 2022）｜ **学士** ｜ 计算机科学与技术 ｜ 衡阳师范学院（2015 - 2019）
 - 软件设计师（中级）｜ 系统集成项目管理工程师（中级）｜ CET-6
 
-## 完整简历
-
-- 📃 [在线完整简历（resume.md）](./resume.md)
-- 📥 [Word 版简历下载（resume.docx）](./resume.docx)
-- 简历可按目标岗位定制输出 Word / PDF，欢迎通过页面顶部邮箱或 [GitHub](https://github.com/keeper-jie) 联系。
-
 ---
 
-*© 2026 刘捷 · 由 GitHub Pages 渲染 · 最后更新：2026.11*
+*© 2026 刘捷 · 由 GitHub Pages 渲染 · 最后更新：2026.11 · 诚意向你推荐自己，欢迎邮件沟通*
